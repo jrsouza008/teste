@@ -1,0 +1,6 @@
+ooooooooooooooooooooiiiiiiiiiiiiiiiiiiii nemo
+ 
+int main() 
+{
+     printf("oioi");
+}

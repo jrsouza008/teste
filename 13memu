@@ -1,22 +1,42 @@
-biiiiiiiiiiiiiiiiiiirrrrrrrrr vamos fazer um progrma do monstro em C
+biiiiiiiiiiiiiiiiiiirrrrrrrrr vamos fazer um progrma do monstro em C++
+
 
 #include <stdio.h>
-#include <conio.h>
 #include <locale.h>
-#include <string.h>
+#include <conio.h>
+#include <iostream>
 
+using namespace std;
 
-int main()
-{
-	string monstro[20];
+class joao{
+	public:
+	    char monstro[100];
+	    void monstro(){
+		
+		cout<<"\t=========BEM VINDO A JAULA DO MONSTRO============" 
+		cout<<"\n\nInforme a frase do monstro: ";
+		gets(monstro);
 
-	printf("informe a frase do monstro: ");
-	scanf("%s", &monstro);
+		cout<<"\n============x================";
+		cout<<"\nO monstro falou: "<<monstro;
 
-	printf("o monstro falou: %s", monstro);
+	    }
+
+};
+
+int main(){
+	setlocale(LC_ALL, "portuguese");
+
+	joao obj;
+
+	obj.monstro();
 
 	getch();
 	return 0;
 
 }
+
+
+
+
 

@@ -1,0 +1,22 @@
+biiiiiiiiiiiiiiiiiiirrrrrrrrr vamos fazer um progrma do monstro em C
+
+#include <stdio.h>
+#include <conio.h>
+#include <locale.h>
+#include <string.h>
+
+
+int main()
+{
+	string monstro[20];
+
+	printf("informe a frase do monstro: ");
+	scanf("%s", &monstro);
+
+	printf("o monstro falou: %s", monstro);
+
+	getch();
+	return 0;
+
+}
+

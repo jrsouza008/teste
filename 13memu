@@ -11,7 +11,7 @@ using namespace std;
 class joao{
 	public:
 	    char monstro[100];
-	    void monstro(){
+	    void monstros(){
 		
 		cout<<"\t=========BEM VINDO A JAULA DO MONSTRO============" 
 		cout<<"\n\nInforme a frase do monstro: ";
@@ -29,7 +29,7 @@ int main(){
 
 	joao obj;
 
-	obj.monstro();
+	obj.monstros();
 
 	getch();
 	return 0;
